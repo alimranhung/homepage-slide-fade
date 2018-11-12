@@ -134,3 +134,15 @@ ul.navbar-nav li a {
     background: #fff;
     margin-left: -40px;
 }
+.scrolltop {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    line-height: 36px;
+    font-size: 30px;
+}
+.navbar.uk-active {
+    background: rgba(0,0,40,0.7 );
+}

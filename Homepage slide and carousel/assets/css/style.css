@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+
+}
+body {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+a:hover { text-decoration: none }
+.section-padding{padding:80px 0;}
+
+
+.carousel-item{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.carousel-item:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.carousel-item:before {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09052f+0,311d5e+100 */
+    background: #09052f; /* Old browsers */
+    background: -moz-linear-gradient(top, #09052f 0%, #311d5e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #09052f 0%,#311d5e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #09052f 0%,#311d5e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09052f', endColorstr='#311d5e',GradientType=0 ); /* IE6-9 */ 
+}
+.carousel-bg-1{background-image: url(../img/homepage-bg-1.jpg);}
+.carousel-bg-2{background-image: url(../img/kym-ellis-662656-unsplash.jpg);}
+
+html, body, #showcase {
+    height: 100%;
+}
+.header-absolute {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+#showcase, #showcase div {
+    height: 100%;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+}
+ul.navbar-nav li a {
+    margin-left: 7px;
+}
+
+/*HOMEPAGE CAROUSEL FADE PROPARTY AND CSS START*/
+#carouselBeadManRedding {
+    background-color: #000;
+}
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out 1.7s;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.carousel.carousel-fade .carousel-item:first-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+.carousel.carousel-fade .carousel-item:second-child {
+    top: auto;
+    position: relative;
+    transition: opacity ease-out 1.7s;
+}
+.carousel-item .img-fluid {
+    margin: 0 auto;
+}
+.carousel img {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+/*HOMEPAGE CAROUSEL FADE PROPARTY AND CSS END*/
+.carousel-item h1{
+    position: relative;
+    padding-bottom: 10px;
+}
+.carousel-item h1:before{
+    position: absolute;
+    content:"";
+    bottom:0;
+    left: 50%;
+    width:80px;
+    height: 2px;
+    background: #fff;
+    margin-left: -40px;
+}

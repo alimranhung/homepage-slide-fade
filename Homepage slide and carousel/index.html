@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -6,6 +6,7 @@
 		<title>Quickstart pack 2</title>
 		<meta name="viewport" content="width=divice-width, initial-scale=1">
 
+		<link rel="stylesheet" href="assets/css/uikit.min.css">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/style.css">
@@ -18,7 +19,7 @@
 	<body>
 		<!--header-area-start-->
 			<section id="header-area" class="header-absolute">
-				<nav class="navbar navbar-expand-sm navbar-dark">
+				<nav class="navbar navbar-expand-sm navbar-dark" uk-sticky="top: 500; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
 					<div class="container">
 						<a href="" class="navbar-brand"><img src="assets/img/header-logo.png" class="img-fluid mr-2" alt="">tajem</a>
 						<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
@@ -39,7 +40,7 @@
 		<!--header-area-start-end-->
 		<!--homepage-area-start-->
 			 <section id="showcase" class="bg-dark">
-		        <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel" data-interval="50000">
+		        <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel" data-interval="3000">
 		          <ol class="carousel-indicators">
 		            <li data-slide-to="0" data-target="#myCarousel" class="active"></li>
 		            <li data-slide-to="1" data-target="#myCarousel"></li>
@@ -64,7 +65,7 @@
 		                        <div class="carousel-caption h-100">
 		                          <div class="hero-area-table d-table w-100 h-100">
 		                            <div class="hero-area-tablcell d-table-cell align-middle">
-		                            	<h1 class="mb-3">We Are Awesome Creative Agency</h1>
+		                            	<h1 class="mb-3" >We Are Awesome Creative Agency</h1>
 		                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 		                                <a href="#" class="btn btn-primary py-2 px-3">Learn more</a>
 		                          </div>
@@ -78,7 +79,7 @@
 		                          <div class="hero-area-table d-table w-100 h-100">
 		                            <div class="hero-area-tablcell d-table-cell align-middle">
 		                                <h1 class="mb-3">We Are Awesome Creative Agency</h1>
-		                                <p >This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+		                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
 		                                <a href="#" class="btn btn-warning py-2 px-3">Learn more</a>
 		                          </div>
 		                        </div>
@@ -95,9 +96,13 @@
 		        </div>
 		    </section>
 		<!--homepage-area-end-->
+		<a class="d-inline-block bg-warning text-center text-light rounded-circle scrolltop" href="#target" uk-scroll><i class="fa fa-angle-up"></i> </a>
+		
 		<script src="assets/js/popper-1.14.3.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/uikit.min.js"></script>
+		<script src="assets/js/uikit-icons.min.js"></script>
 		<script type="text/javascript">
 			$('.carousel').carousel()
 		</script>

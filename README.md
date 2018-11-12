@@ -1,8 +1,8 @@
 # Bootstrap-4-slide
-##click RAW
+#click RAW
 ``Homepage slide fade for html and css flowing the bellow
 ``
-##HTML
+#HTML
  <section id="showcase" class="bg-dark">
 		        <div id="myCarousel" class="carousel carousel-fade" data-ride="carousel" data-interval="50000">
 		          <ol class="carousel-indicators">

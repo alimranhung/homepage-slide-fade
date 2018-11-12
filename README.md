@@ -60,8 +60,11 @@
 		    </section>
         
         
-        ##CSS {fade for CSS}
+ ``CSS fade for CSS
+ ``
+ 
 /*HOMEPAGE CAROUSEL FADE PROPARTY AND CSS START*/
+``
 #carouselBeadManRedding {
     background-color: #000;
 }
@@ -93,5 +96,6 @@
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+``
 /*HOMEPAGE CAROUSEL FADE PROPARTY AND CSS END*/
         
